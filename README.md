@@ -11,6 +11,8 @@ Vocabulary Trainer Module for MagicMirror²
 ## Dependencies
 
 * An installation of [MagicMirror<sup>2</sup>](https://github.com/MichMich/MagicMirror)
+* npm
+* [jsdom](https://www.npmjs.com/package/jsdom)
 
 ## Installation
 
@@ -26,12 +28,13 @@ Vocabulary Trainer Module for MagicMirror²
         }
     }
     ```
+1. Run command `npm install --productive` in `~/MagicMirror/modules/MMM-VocabularyTrainer` directory.
 
 ## Config Options
 
 | **Option** | **Default** | **Description** |
 | --- | --- | --- |
-| `provider` | `"custom"` | API provider (See full list below). |
+| `provider` | `'custom'` | API provider (See full list below). |
 | `nativeTimeout` | `10 * 1000 (10secs)` | Display time of native word. |
 | `foreignTimeout` | `20 * 1000 (20secs)` | Display time of foreign word. |
 | `showTimeLeft` | `true` | Display countdown bar. |
@@ -53,7 +56,7 @@ There is a sample file provided in this directory as well, to use it you have to
 
 Shows latin sayings and their german translations from [Geschichts- und Kulturverein Köngen e.V. ](http://geschichtsverein-koengen.de/RoemSprichwort.htm).
 
-To use this API you have to set the provider in config as `provider: 'geschichtsvereinkoengen'`
+To use this API you have to set the provider in config as `provider: 'geschichtsvereinkoengen'`.
 To revert the displaying order from latin -> german to german -> latin you have to add `revert: true` to your config.
 
 ## Developer
