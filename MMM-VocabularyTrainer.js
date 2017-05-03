@@ -42,7 +42,7 @@ Module.register('MMM-VocabularyTrainer', {
      * @property {boolean} showTimeLeft - Show how much time is left until change.
      * @property {boolean} revert - Reverts native to foreign.
      * @property {boolean} color - Use color for countdown bar.
-     * @property {string} width - Module width.
+     * @property {string} width - Countdown bar width.
      * @property {string} provider - API provider to use.
      */
     defaults: {
@@ -159,7 +159,6 @@ Module.register('MMM-VocabularyTrainer', {
 
                 Log.info(countdownStep);
                 this.countdown = setInterval(() => {
-                    Log.info(countdownWidth);
                     countdownWidth -= countdownStep;
                     if (this.config.color) {
                         if (countdownWidth > 66) {

@@ -17,7 +17,7 @@ const fs = require('fs');
  * @module apis/custom
  * @description Queries data from MMM-VocabularyTrainer.json
  *
- * @requires external:request
+ * @requires external:fs
  */
 module.exports = () => {
     /** @member {string} filePath - Path to custom Vocabulary file */
