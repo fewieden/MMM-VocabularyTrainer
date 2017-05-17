@@ -1,0 +1,32 @@
+.MMM-VocabularyTrainer .center {
+    text-align: center;
+}
+
+.MMM-VocabularyTrainer .bar {
+    height: 5px;
+    margin: 0 auto;
+    position: relative;
+    background: #555;
+    border-radius: 25px;
+}
+
+.MMM-VocabularyTrainer .bar > span {
+    display: block;
+    height: 100%;
+    border-radius: 10px 4px 4px 10px;
+    background-color: #eee;
+    position: relative;
+    overflow: hidden;
+}
+
+.MMM-VocabularyTrainer .bar > span.relax {
+    background-color: #26a65b;
+}
+
+.MMM-VocabularyTrainer .bar > span.concentrate {
+    background-color: #f89406;
+}
+
+.MMM-VocabularyTrainer .bar > span.hurryup {
+    background-color: #d91e18;
+}

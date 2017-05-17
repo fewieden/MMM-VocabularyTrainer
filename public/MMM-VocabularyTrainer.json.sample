@@ -1,0 +1,22 @@
+[
+  {
+    "native": "hello",
+    "foreign": "Hallo"
+  },
+  {
+    "native": "dog",
+    "foreign": "Hund"
+  },
+  {
+    "native": "cat",
+    "foreign": "Katze"
+  },
+  {
+    "native": "mirror",
+    "foreign": "Spiegel"
+  },
+  {
+    "native": "five",
+    "foreign": "fünf"
+  }
+]
